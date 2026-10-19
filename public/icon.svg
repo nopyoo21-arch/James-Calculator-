@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <rect x="48" y="32" width="416" height="448" rx="56" fill="url(#bgGrad)" stroke="#334155" stroke-width="8"/>
+
+  <!-- Screen -->
+  <rect x="88" y="72" width="336" height="110" rx="24" fill="url(#screenGrad)"/>
+  
+  <!-- Screen Glow / Text -->
+  <text x="112" y="115" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#bae6fd" letter-spacing="2">JAMES CALCULATOR</text>
+  <text x="400" y="158" font-family="'JetBrains Mono', monospace" font-size="38" font-weight="700" fill="#ffffff" text-anchor="end">3.141592</text>
+
+  <!-- Keypad Grid -->
+  <!-- Row 1: C, ( ), %, ÷ -->
+  <rect x="88" y="210" width="70" height="52" rx="14" fill="#334155"/>
+  <text x="123" y="244" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#f87171" text-anchor="middle">C</text>
+
+  <rect x="176" y="210" width="70" height="52" rx="14" fill="#334155"/>
+  <text x="211" y="244" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#94a3b8" text-anchor="middle">( )</text>
+
+  <rect x="264" y="210" width="70" height="52" rx="14" fill="#334155"/>
+  <text x="299" y="244" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#94a3b8" text-anchor="middle">%</text>
+
+  <rect x="352" y="210" width="72" height="52" rx="14" fill="url(#accentGrad)"/>
+  <text x="388" y="245" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">÷</text>
+
+  <!-- Row 2: 7, 8, 9, × -->
+  <rect x="88" y="274" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="123" y="308" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">7</text>
+
+  <rect x="176" y="274" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="211" y="308" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">8</text>
+
+  <rect x="264" y="274" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="299" y="308" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">9</text>
+
+  <rect x="352" y="274" width="72" height="52" rx="14" fill="url(#accentGrad)"/>
+  <text x="388" y="308" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">×</text>
+
+  <!-- Row 3: 4, 5, 6, - -->
+  <rect x="88" y="338" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="123" y="372" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">4</text>
+
+  <rect x="176" y="338" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="211" y="372" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">5</text>
+
+  <rect x="264" y="338" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="299" y="372" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">6</text>
+
+  <rect x="352" y="338" width="72" height="52" rx="14" fill="url(#accentGrad)"/>
+  <text x="388" y="372" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+
+  <!-- Row 4: 1, 2, 3, + -->
+  <rect x="88" y="402" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="123" y="436" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">1</text>
+
+  <rect x="176" y="402" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="211" y="436" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">2</text>
+
+  <rect x="264" y="402" width="70" height="52" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="299" y="436" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#f1f5f9" text-anchor="middle">3</text>
+
+  <rect x="352" y="402" width="72" height="52" rx="14" fill="url(#accentGrad)"/>
+  <text x="388" y="436" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">+</text>
+</svg>

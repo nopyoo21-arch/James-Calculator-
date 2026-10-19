@@ -1,0 +1,6 @@
+{
+  "name": "James Calculator",
+  "description": "Calculatrice professionnelle complète : Standard, Scientifique, Algèbre, Fractions, Pourcentages, Finance, Géométrie, Statistiques, Probabilités et Conversions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
